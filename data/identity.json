@@ -1,0 +1,25 @@
+{
+ "prompts": {
+  "fury": "a photo of a shirtless heavyweight boxer wearing dark green boxing trunks and green boxing gloves",
+  "usyk": "a photo of a shirtless boxer wearing white boxing trunks with blue and yellow trim and white boxing gloves",
+  "ref": "a photo of a boxing referee wearing a white shirt and black trousers",
+  "other": "a photo of a spectator or cornerman at a boxing event"
+ },
+ "fighters": [
+  "fury",
+  "usyk"
+ ],
+ "canvas": [
+  95,
+  130,
+  80
+ ],
+ "trunks": {
+  "bright": "usyk",
+  "dark": "fury"
+ },
+ "stance": {
+  "fury": "orthodox",
+  "usyk": "southpaw"
+ }
+}

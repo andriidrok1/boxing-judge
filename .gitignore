@@ -1,0 +1,13 @@
+data/*
+!data/*.csv
+!data/*.json
+*.pt
+runs/
+__pycache__/
+.ipynb_checkpoints/
+out/*
+!out/*.png
+!out/*.csv
+!out/*.md
+!out/clip_r9_verified_punches.jpg
+!out/clip_r9_verified_still.jpg

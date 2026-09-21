@@ -1,0 +1,7 @@
+# CompuBox totals, Fury vs Usyk 1 (2024-05-18). Source: givemesport/boxingscene summary of CompuBox.
+# Round-by-round table not found in text form; fill rows 1-12 from the CompuBox graphic (x.com/CompuBox 2024-05-18) when available.
+# Known fragments: after R3 jabs landed Fury 25 / Usyk 14, power landed Usyk 21 / Fury 12; R5 Fury landed 22 (16 power);
+# R8 power landed Usyk 12 / Fury 6; R10-12 power landed Usyk 36 / Fury 15; Fury threw more in every round 1-7, Usyk in 8-12.
+fighter,round,landed,thrown,jabs_landed,jabs_thrown,power_landed,power_thrown
+fury,total,157,496,62,286,95,210
+usyk,total,170,407,48,147,122,260
