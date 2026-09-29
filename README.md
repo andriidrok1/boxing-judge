@@ -1,7 +1,12 @@
 # boxing-judge
 
 Scores boxing rounds from broadcast video with pose estimation and hand-written judging logic.
-Learning project. Test fight: Fury vs Usyk 1 (2024-05-18), split decision 115-112 / 114-113 Usyk, 114-113 Fury.
+Test fight: Fury vs Usyk 1 (2024-05-18), split decision 115-112 / 114-113 Usyk, 114-113 Fury.
+System card: **116-111 Usyk**. Punch detector precision **0.79** on a round checked frame by frame.
+
+![Round 9 demo: every drawn punch was verified by hand, frame by frame](docs/demo.gif)
+
+*Round 9, 30 s window. Only punches confirmed by a human review of 5-frame strips are drawn; the contact sheet of those punches is in [docs/verified_punches.jpg](docs/verified_punches.jpg). Ground truth comes only from the judges' cards, CompuBox and hand labels, never from the tracker's own output.*
 
 Pipeline (run from `src/`, venv = `~/PycharmProjects/cv-insta/.venv`):
 
@@ -96,3 +101,7 @@ and adds 3 that are not punches (`out/clip_r9.mp4` is the raw version).
 
 Still open: recall (needs labels of every punch in a round, not just proposals); clinch detection beyond box overlap;
 CompuBox round-by-round rows (only totals and the combination graphic are public).
+
+## License
+
+MIT, see [LICENSE](LICENSE).
